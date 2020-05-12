@@ -1,0 +1,10 @@
+.headers {
+  height: 106px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1180px;
+  margin: auto;
+}
+.logo:hover {
+  cursor: pointer;
+}

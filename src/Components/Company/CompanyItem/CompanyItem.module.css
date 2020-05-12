@@ -1,0 +1,95 @@
+.s_title {
+  color: #3e3e3e;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  position: relative;
+}
+.title:after {
+  position: absolute;
+  left: 50%;
+  content: "";
+  width: 82px;
+  height: 2px;
+  bottom: -14px;
+  background: #e4b56b;
+  margin-left: -42px;
+}
+
+.itemBlock {
+  display: block;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+}
+.ib_subBlock {
+  position: relative;
+  margin: 0;
+  display: block;
+  margin-top: 30px;
+}
+
+.i_textblock {
+  background: rgba(62, 62, 62, 0.9);
+  position: absolute;
+  width: 750px;
+  height: 260px;
+  text-align: left;
+
+  top: 60px;
+}
+.i_textblockRight {
+  right: 0;
+  background: rgba(62, 62, 62, 0.9);
+  position: absolute;
+  width: 750px;
+  height: 260px;
+  text-align: left;
+
+  top: 60px;
+}
+.it_titleText {
+  padding-left: 90px;
+  margin: 0;
+  color: #ffffff;
+  padding-top: 25px;
+
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+  position: relative;
+}
+.it_titleText:before {
+  position: absolute;
+  right: 61px;
+  top: 0;
+  content: "";
+  width: 2px;
+  height: 212px;
+  background: #e4b56b;
+}
+.i_textblockRight > .it_titleText:before {
+  position: absolute;
+  left: 78px;
+  content: "";
+  width: 2px;
+  height: 212px;
+  background: #e4b56b;
+}
+.it_text {
+  padding-left: 90px;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 500;
+  width: 545px;
+  color: #ffffff;
+}
+.image > img {
+  max-width: 1360px !important;
+}
+.i_textblockRight > .it_text {
+  padding-left: 115px !important;
+}
+.i_textblockRight > .it_titleText {
+  padding-left: 115px !important;
+}

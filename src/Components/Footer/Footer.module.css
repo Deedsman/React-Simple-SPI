@@ -1,0 +1,77 @@
+.centered {
+  max-width: 1180px;
+  margin: -4px auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+.s_center {
+  display: flex;
+}
+.s_center div:last-child {
+  margin-left: 60px;
+}
+.about {
+  position: relative;
+  flex: 30%;
+}
+.about:after {
+  position: absolute;
+  content: "";
+  height: 55px;
+  width: 1px;
+  background: #e4b56b;
+  top: 0;
+  right: 0px;
+}
+.service {
+  flex: 39%;
+  padding-left: 40px;
+  position: relative;
+}
+.contact {
+  flex: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+.contacnt_block p:nth-child(n + 3) {
+  line-height: 21px;
+}
+.contacnt_block > p:nth-child(n + 3) {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #3e3e3e;
+}
+
+.service:after {
+  position: absolute;
+  content: "";
+  height: 55px;
+  width: 1px;
+  background: #e4b56b;
+  top: 0;
+  right: 0px;
+}
+.centered h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3e3e3e;
+  margin-bottom: 0;
+}
+.centered a {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 15px;
+  color: #aeaeae;
+  text-decoration: none;
+}
+.contacnt_block {
+  text-align: left;
+}
+.contacnt_block span {
+  display: block;
+}

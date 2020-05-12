@@ -1,0 +1,80 @@
+.services {
+  max-width: 1190px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.s_title {
+  color: #3e3e3e;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  position: relative;
+}
+.s_title:after {
+  position: absolute;
+  left: 50%;
+  content: "";
+  width: 82px;
+  height: 2px;
+  bottom: -14px;
+  background: #e4b56b;
+  margin-left: -42px;
+}
+.s_block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 35px;
+}
+
+.s_calculate {
+  margin: 15px 0 0;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  cursor: pointer;
+  width: 379px;
+  height: 43px;
+  background: #454647;
+  border: none;
+  font-family: "Raleway", sans-serif !important;
+
+  color: #ffffff;
+}
+.s_Sharnir {
+  position: relative;
+}
+.s_leftSharnir {
+  position: relative;
+  left: -57%;
+}
+.s_rightSharnir {
+  position: relative;
+  right: -0%;
+}
+.s_Shar1,
+.s_Shar2,
+.s_Shar3 {
+  position: absolute;
+}
+.s_rightSharnir > .s_Shar1 {
+  right: -9%;
+}
+.s_rightSharnir > .s_Shar2 {
+  right: -9%;
+}
+.s_rightSharnir > .s_Shar3 {
+  right: -2%;
+}
+
+.s_Shar1 {
+  top: 88px;
+}
+.s_Shar2 {
+  top: 325px;
+}
+.s_Shar3 {
+  right: -126px;
+}

@@ -1,0 +1,51 @@
+.s_title {
+  color: #3e3e3e;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  position: relative;
+}
+.title:after {
+  position: absolute;
+  left: 50%;
+  content: "";
+  width: 82px;
+  height: 2px;
+  bottom: -14px;
+  background: #e4b56b;
+  margin-left: -42px;
+}
+.image {
+}
+.itemBlock {
+  position: relative;
+  height: 201px;
+
+  margin: 5px;
+}
+
+.i_textblock {
+  background: rgba(62, 62, 62, 0.9);
+  position: absolute;
+  height: 56px;
+  width: 333px;
+  text-align: left;
+  padding-left: 15px;
+  top: 31px;
+}
+.it_text {
+  margin: 0;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 60px;
+  position: relative;
+}
+.it_text:before {
+  position: absolute;
+  right: 15px;
+  content: "";
+  width: 2px;
+  height: 46px;
+  background: #e4b56b;
+}

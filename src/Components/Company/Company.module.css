@@ -1,0 +1,26 @@
+.services {
+  max-width: 1360px;
+  margin: auto;
+  text-align: center;
+}
+.s_title {
+  color: #3e3e3e;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  position: relative;
+}
+.s_title:after {
+  position: absolute;
+  left: 50%;
+  content: "";
+  width: 82px;
+  height: 2px;
+  bottom: -14px;
+  background: #e4b56b;
+  margin-left: -42px;
+}
+.s_block {
+  display: block;
+  margin-top: 35px;
+}
