@@ -16,6 +16,7 @@
   margin-left: -42px;
 }
 .image {
+  box-sizing: border-box;
 }
 .itemBlock {
   position: relative;
@@ -48,4 +49,36 @@
   width: 2px;
   height: 46px;
   background: #e4b56b;
+}
+
+@media screen and (max-width: 375px) {
+  .i_textblock {
+    top: 20px;
+    max-width: 141px;
+    height: 36px;
+
+    padding-left: 6px;
+  }
+  .it_text {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    max-width: 115px;
+  }
+  .it_text:before {
+    height: 23px;
+    right: -14px;
+  }
+  .itemBlock {
+    height: 100%;
+    margin: 5px;
+  }
+  .itemBlock .image img {
+    max-width: 159px;
+    height: 105px;
+  }
+  .image {
+    box-sizing: border-box;
+    overflow: hidden;
+  }
 }

@@ -24,3 +24,8 @@
   display: block;
   margin-top: 35px;
 }
+@media screen and (max-width: 375px) {
+  .s_title {
+    font-size: 20px;
+  }
+}

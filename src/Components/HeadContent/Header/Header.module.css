@@ -8,3 +8,16 @@
 .logo:hover {
   cursor: pointer;
 }
+@media screen and (max-width: 375px) {
+  .headers {
+    height: 60px;
+  }
+  .logo {
+    margin-top: 2px;
+    margin-left: 16px;
+  }
+  .logo img {
+    width: 80px;
+    height: 56px;
+  }
+}

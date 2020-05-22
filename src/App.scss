@@ -2,3 +2,26 @@
   max-width: 1360px;
   margin: auto;
 }
+.carousel-dots {
+  margin-top: -40px !important;
+}
+.carousel-dots li {
+  z-index: 1 !important;
+}
+.carousel-dots li.carousel-dots-active button:before {
+  opacity: 0.75;
+  color: #e4b56b !important;
+}
+.carousel-dots li button:before {
+  color: white !important;
+  font-size: 55px !important;
+}
+.carousel-track > .carousel-item {
+  width: 100px !important;
+  max-width: 1300px !important;
+}
+@media screen and (max-width: 375px) {
+  .header.carousel-track {
+    height: 216px !important;
+  }
+}

@@ -1,0 +1,135 @@
+.services {
+  max-width: 1190px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 40px;
+  position: relative;
+}
+.s_title {
+  color: #3e3e3e;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  position: relative;
+}
+.s_title:after {
+  position: absolute;
+  left: 50%;
+  content: "";
+  width: 82px;
+  height: 2px;
+  bottom: -14px;
+  background: #e4b56b;
+  margin-left: -42px;
+}
+.s_block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 35px;
+}
+
+.s_calculate {
+  display: block;
+  margin: 15px 0 0;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  cursor: pointer;
+  width: 379px;
+  height: 43px;
+  background: #454647;
+  border: none;
+  font-family: "Raleway", sans-serif !important;
+  color: #ffffff;
+}
+.s_calculate_mobile {
+  margin: 15px 0 0;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  max-width: 328px;
+  height: 43px;
+  background: #454647;
+  border: none;
+  font-family: "Raleway", sans-serif !important;
+  color: #ffffff;
+  display: none;
+}
+
+.s_sharnir_area {
+  position: absolute;
+  width: 100%;
+}
+.s_sharnir_area_left {
+  position: relative;
+  float: left;
+}
+.s_sharnir_area_right {
+  position: relative;
+  float: right;
+}
+.s_sharnir_block1,
+.s_sharnir_block2,
+.s_sharnir_block3 {
+  position: relative;
+  margin: auto;
+}
+.s_sharnir_block1 {
+  top: 125px;
+  left: -42%;
+  width: 210px;
+}
+.s_sharnir_block2 {
+  left: 164px;
+  top: -4px;
+}
+.s_sharnir_block3 {
+  left: -42%;
+  top: -242px;
+  width: 177px;
+}
+.s_sharnir_block4,
+.s_sharnir_block5,
+.s_sharnir_block6 {
+  position: relative;
+  margin: auto;
+}
+.s_sharnir_block4 {
+  top: -292px;
+  left: 30%;
+  width: 210px;
+}
+.s_sharnir_block5 {
+  left: -58%;
+  top: 0px;
+}
+.s_sharnir_block6 {
+  left: 47%;
+  top: 98px;
+  width: 177px;
+}
+.cursor:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 375px) {
+  .s_block {
+    justify-content: center;
+  }
+  .s_calculate {
+    display: none;
+  }
+  .s_calculate_mobile {
+    display: inline-block;
+  }
+  .s_sharnir_area {
+    display: none;
+  }
+  .s_title {
+    font-size: 20px;
+  }
+}

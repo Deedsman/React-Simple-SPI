@@ -1,5 +1,6 @@
 import React from "react";
 import cls from "./Navbar.module.css";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -7,23 +8,24 @@ const Navbar = () => {
       <nav>
         <ul>
           <li>
-            <a href="#" onClick={e => e.preventDefault()}></a>Главная
+            <NavLink to="/">Главная</NavLink>
             <span></span>
           </li>
           <li>
-            <a href="#" onClick={e => e.preventDefault()}></a>Услуги
+            <NavLink to="/services">Услуги</NavLink>
+
             <span></span>
           </li>
           <li>
-            <a href="#" onClick={e => e.preventDefault()}></a>Наши работы
+            <NavLink to="/ourworks">Наши работы</NavLink>
             <span></span>
           </li>
           <li>
-            <a href="#" onClick={e => e.preventDefault()}></a>О нас
+            <NavLink to="/about">О нас</NavLink>
             <span></span>
           </li>
           <li>
-            <a href="#" onClick={e => e.preventDefault()}></a>Контакты
+            <NavLink to="/contacts">Контакты</NavLink>
             <span></span>
           </li>
         </ul>

@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway");
+.mobileMenu_container {
+  position: relative;
+  width: 100%;
+  display: none;
+  position: absolute;
+}
+
+.mobileMenu_block {
+  position: absolute;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+
+  visibility: hidden;
+  overflow: hidden;
+}
+.mobileMenu_block > div {
+  background: linear-gradient(180deg, #49494a 17.19%, #383836 100%);
+  width: 200vw;
+  height: 0;
+  transition: all 0.4s ease;
+}
+.mobile_list {
+  text-align: left;
+  list-style: none;
+
+  display: block;
+  padding: 0px 16px;
+}
+.mobile_list li span {
+  position: absolute;
+  right: 2px;
+}
+.mobile_list li {
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 18px;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(228, 181, 107, 0.5);
+}
+.mobile_list li > a:hover {
+  color: #aeaeae;
+}
+
+.hamburger_btn {
+  position: absolute;
+  top: 0;
+  right: 0%;
+  z-index: 2;
+  width: 28px;
+  height: 36px;
+  padding: 13px;
+  display: flex;
+  /* display: none; */
+  align-items: center;
+  justify-content: center;
+}
+.hamburger_btn > div {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.4s ease;
+}
+.hamburger_btn > div:after,
+.hamburger_btn > div:before {
+  content: "";
+  position: absolute;
+  z-index: 3;
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: inherit;
+}
+.hamburger_btn > div:before {
+  top: 10px;
+}
+.mob_toggler {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  z-index: 3;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+.mob_toggler:checked ~ .mobileMenu_block {
+  visibility: visible;
+}
+.mob_toggler:checked ~ .mobileMenu_block > div {
+  height: 200vw;
+}
+.mob_toggler:checked + .hamburger_btn > div {
+  transform: rotate(135deg);
+}
+.mob_toggler:checked + .hamburger_btn > div:before,
+.mob_toggler:checked + .hamburger_btn > div:after {
+  top: 0;
+  transform: rotate(90deg);
+}
+.wrapperlang {
+  position: absolute;
+  right: 0;
+  top: 35%;
+}
+.wrapperlang a {
+  margin-left: 17px;
+}
+@media screen and (max-width: 375px) {
+  .mobileMenu_container {
+    display: block;
+  }
+}

@@ -75,3 +75,69 @@
 .contacnt_block span {
   display: block;
 }
+.mob_centered {
+  padding: 16px;
+  padding-top: 0;
+}
+.mob_list {
+  display: flex;
+}
+.mob_list h3 {
+  font-size: 16px;
+}
+.mob_about {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  position: relative;
+}
+.mob_about a {
+  margin-bottom: 15px;
+  color: #aeaeae;
+  text-decoration: none;
+}
+.mob_service {
+  position: relative;
+  padding-left: 21px;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.mob_service a {
+  color: #aeaeae;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+.mob_center {
+  display: flex;
+  flex-direction: column;
+}
+.mob_service:after {
+  position: absolute;
+  content: "";
+  height: 55px;
+  width: 1px;
+  background: #e4b56b;
+  top: 0;
+  right: 0px;
+}
+.mob_about:after {
+  position: absolute;
+  content: "";
+  height: 55px;
+  width: 1px;
+  background: #e4b56b;
+  top: 0;
+  right: 0px;
+}
+.mob_contact {
+  margin: auto;
+  text-align: center;
+  max-width: 200px;
+  font-size: 16px;
+}
+.mob_contact h3 {
+  font-size: 16px;
+}

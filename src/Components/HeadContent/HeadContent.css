@@ -2,21 +2,3 @@
   display: block;
   margin: 0;
 }
-.carousel-dots {
-  margin-top: -40px !important;
-}
-.carousel-dots li {
-  z-index: 100 !important;
-}
-.carousel-dots li.carousel-dots-active button:before {
-  opacity: 0.75;
-  color: #e4b56b !important;
-}
-.carousel-dots li button:before {
-  color: white !important;
-  font-size: 55px !important;
-}
-.carousel-track > .carousel-item {
-  width: 100px !important;
-  max-width: 1300px !important;
-}
