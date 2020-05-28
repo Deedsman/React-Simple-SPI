@@ -1,4 +1,4 @@
-React example code
+<h3>React example code</h3>
 
 if you want see this site <h1>click here</h1> https://react-simple.herokuapp.com/
 
